@@ -1,7 +1,16 @@
 <html>
 <head>
   <style>
-    #feed-container{background:#fff;display:block;clear:both;margin:0;padding:0;list-style:none;overflow:hidden;position:relative;border-top:none}
+#table-outer{padding:7px 10px;margin:0 auto}
+#table-outer table{width:auto;margin:0 auto}
+#table-outer form{font:inherit}
+#table-outer label{display:block;text-align:right;margin:0 10px 0 0;padding:4px 0 0}
+#table-outer select[disabled]{opacity:.4}
+#post-searcher{display:block;margin:0;padding:0}
+#table-outer input,#table-outer select{width:100%;border:1px solid #dedede;border-radius:5px;margin:0;padding:5px;font-family: Roboto,sans-serif!important;font-size:16px!important;font-weight:500!important;text-transform:capitalize!important;outline:0;color:#333!important;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+#table-outer select option{min-height:1.4em!important;}
+#table-outer input#feed-q{padding:5px 10px!important;}
+#feed-container{background:#fff;display:block;clear:both;margin:0;padding:0;list-style:none;overflow:hidden;position:relative;border-top:none}
 #feed-container li{list-style:none;margin:0;padding:0;border-top:1px solid #eee;color:#555;width:auto;float:left;display:inline}
 #feed-container li .inner{margin:15px 0;height:auto;overflow:hidden;word-wrap:break-word;text-overflow:ellipsis}
 #feed-container li a{text-decoration:none;color:#2C2C2C;font-weight:500}
@@ -22,6 +31,7 @@
 #feedContainer li{float:none;display:block;width:auto;height:auto}
 #feed-container li .news-text, #feedContainer:after,#feed-container li img{display:none!important}
 }
+.post-body{min-height:300px;background:url(https://lh6.googleusercontent.com/-UKClHRpzskg/VfOm1eLfT7I/AAAAAAAAiQw/1pwwhEsT49I/w220-h19-no/ajax-loader%2B%25281%2529.gif)50% 50% no-repeat!important;}
     </style>
 </head>
 <body>
